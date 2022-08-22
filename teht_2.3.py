@@ -1,5 +1,6 @@
 import math
-#kysytän tiedot
+
+#kysytään tiedot
 kanta = float(input("Anna suorakulmion kanta"))
 korkeus = float(input("Anna suorakulmion korkeus"))
 
