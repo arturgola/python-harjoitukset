@@ -7,7 +7,15 @@
 #piiri = (piiri) / 2 * 3,1415
 #print("Kolmion ala on" + str(ala))
 
+
 import math
 r = float(input("Anna ympyrän säde"))
 ala = math.pi = math.pow(r,2)
+print(f"Ympyrän pinta-ala on {ala:.3f}")
+
+
+#or better version
+import math
+r = float(input("Anna ympyrän säde: "))
+ala = math.pi * math.pow ** 2
 print(f"Ympyrän pinta-ala on {ala:.3f}")
