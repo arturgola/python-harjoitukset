@@ -1,4 +1,4 @@
-hytti = input("Anna hyttin luokka LUX, A, B, C muodossa:")
+hytti = input("Anna hyttiluokka LUX, A, B tai C muodossa:")
 
 if hytti == "LUX":
     print("LUX on parvekkeellinen hytti yläkannella.")
@@ -12,5 +12,5 @@ if hytti == "B":
 if hytti == "C":
     print("C on ikkunaton hytti autokannen alapuolella.")
 
-elif:
-    print("virhelinen hytti luokka, yrittää uudellen")
+else:
+    print("virheellinen hyttiluokka, yrittää uudelleen")
