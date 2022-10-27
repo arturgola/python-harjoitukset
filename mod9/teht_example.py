@@ -1,4 +1,5 @@
 '''
+                        ʕ•ﻌ•`ʔ
 class Koira:
     def __init__(self, nimi, syntymävuosi):
         self.nimi = nimi
@@ -23,13 +24,13 @@ class Car:
               f"tämänhetkinen nopeus: {self.speed} km/h. ")
 
     def accelerate(self):
-        self.speed = self.speed + 3
+        self.speed = self.speed + speed_change
 
 
 someCar = Car("ABC-1", 120)
 otherCar = Car("ABC-2", 150)
-otherCar.accelerate()
-otherCar.accelerate()
+otherCar.accelerate(30)
+otherCar.accelerate(-15)
 someCar.print_info()
 otherCar.print_info()
 
