@@ -24,12 +24,21 @@ class Elevator:
         return True
 
     def go_to_floor(self, floor):
-        print(f"Elevator trying to go to floor {floor}")
+        if (self.current_floor != floor):
+            print(f"Elevator trying to go to floor {floor}")
 
-        while (self.current_floor != floor):
-            if (floor > self.current_floor):
-                if not self.floor_up():
-                    return
-            if (floor < self.current_floor):
-                if not self.floor_down():
-                    return
+    else:
+    print(f"Elevator already at floor {floor}")
+
+
+while (self.current_floor != floor):
+    if (floor > self.current_floor):
+        if not self.floor_up():
+            return
+    if (floor < self.current_floor):
+        if not self.floor_down():
+            return
+
+elevator = Elevator(0, 10)
+elevator.go_to_floor(8)
+elevator.go_to_floor(0)
