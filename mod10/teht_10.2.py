@@ -59,7 +59,5 @@ class Building:
 
 
 building = Building(0, 10, 10)
-
 building.run_elevator(1, 5)
-
 building.run_elevator(0, 5)
